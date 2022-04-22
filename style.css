@@ -10,8 +10,10 @@ body {
 .hero,
 .footer {
     background: #1F2937;
-    padding: 0 200px;
+    padding: 0 20%;
 }
+
+
 
 .header {
     display: flex;
@@ -33,11 +35,17 @@ ul {
     gap: 16px;
 }
 
+li {
+    flex: 1 0 auto;
+}
+
 a {
     text-decoration: none;
     font-size: 18px;
     color:#E5E7EB;
 }
+
+
 
 .content {
     flex: 1;
@@ -47,37 +55,152 @@ a {
     display: flex;
     justify-items: center;
     align-items: center;
-    padding: 100px 200px;
+    padding: 100px 20%;
     gap: 24px;
+}
+
+.hero div {
+    margin: 0;
+    padding: 0;
 }
 
 .hero h1 {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+    margin: 0 0 8px 0;
 }
 
 .hero p {
     flex: 1 0 auto;
     font-size: 18px;
     color: #E5E7EB;
+    margin-top: 8px;
 }
 
-.hero button {
+button {
     background-color: #3882F6;
     border: 1px solid #3882F6;
     padding: 8px 24px;
     border-radius: 8px;
 }
 
+button a {
+    color: #F9FAF8;
+}
+
 .placeholder {
-    background-color: darkgray;
-    height: 200px;
-    width: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: darkgray;
+    height: 250px;
+    min-width: 400px;
+    padding: 0 16px;
+    color: #1F2937;
 }
+
+
+
+.info {
+    padding: 24px 20% 100px 20%;
+    color: #1F2937;
+}
+
+.info h1 {
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.info .container {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.info-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.image {
+    flex: 1 0 auto;
+    height: 150px;
+    width: 150px;
+    border: 4px solid #3882F6;
+    border-radius: 16px;
+}
+
+.info .text {
+    flex: 1 0 auto;
+    width: 150px;
+    padding: 0 8px;
+}
+
+
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 100px 20%;
+    
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    margin-bottom: 16px;
+}
+
+.quote-person {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: end;
+}
+
+
+
+.sign-up {
+    padding: 100px 20%;
+    color: #F9FAF8;
+}
+
+.blue-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 16px;
+    padding: 24px 48px;
+    gap: 16px
+}
+
+.blue-box h1 {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.blue-box p {
+    flex: 1 0 auto;
+    font-size: 18px;
+    margin-top: 8px;
+}
+
+
+.sign-up button {
+    flex: 0 0 auto;
+    border-color: #E5E7EB;
+}
+
+
+
+
 
 .footer {
     display: flex;
@@ -90,4 +213,5 @@ a {
     flex: 1 0 auto;
     font-size: 18px;
     color:#E5E7EB;
+    text-align: center;
 }
